@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FILTERGRAPH>
+  <FILTER uid="3" x="0.19" y="0.7963709677419355" useARA="0">
+    <PLUGIN name="Audio Output" descriptiveName="" format="Internal" category="I/O devices"
+            manufacturer="JUCE" version="1.0" file="" uniqueId="724248cb"
+            isInstrument="0" fileTime="0" infoUpdateTime="0" numInputs="2"
+            numOutputs="0" isShell="0" hasARAExtension="0" uid="724248cb"/>
+    <STATE>0.</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="disabled"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="8" x="0.24375" y="0.5405405405405406" useARA="0" uiLastX_Normal="381"
+          uiLastY_Normal="37" uiopen_Normal="0">
+    <PLUGIN name="simpleEQ" format="VST3" category="Fx" manufacturer="yourcompany"
+            version="1.0.0" file="C:\Users\dylan\OneDrive\Desktop\Programming\simpleEQ\Builds\VisualStudio2022\x64\Debug\VST3\simpleEQ.vst3\Contents\x86_64-win\simpleEQ.vst3"
+            uniqueId="6a9a31b" isInstrument="0" fileTime="191badabfe6" infoUpdateTime="191bb37bbfa"
+            numInputs="2" numOutputs="2" isShell="0" hasARAExtension="0"
+            uid="e95cab96"/>
+    <STATE>191.VMjLgXK....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9XCLt3hKt3hKt3hKt3hYRUUSTEETIckVwTjQisVTTgkdEYjKAQjYPQSPWgUdMcjKAQjct3hdA4hKt3hKt3hKtnTUv.UQAslXuk0UXoWUFE0YQcEV77RRC8Vav8lak4Fc9vyKVMEUy.Ea0cVZtMEcgQWY9..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <FILTER uid="12" x="0.185" y="0.2058212058212058" useARA="0" uiLastX_Normal="373"
+          uiLastY_Normal="376" uiopen_Normal="0">
+    <PLUGIN name="vstPlayer" format="VST3" category="Instrument|Synth" manufacturer="Mirax Labs"
+            version="3.0.116" file="C:\Users\dylan\OneDrive\Desktop\Player VST\vstPlayer.vst3"
+            uniqueId="8fdefd46" isInstrument="1" fileTime="18df8488a00" infoUpdateTime="191bb37bbfb"
+            numInputs="0" numOutputs="0" isShell="0" hasARAExtension="0"
+            uid="ee63cfc"/>
+    <STATE>640.VMjLgbm....O+fWarAhckI2bo8la8HRLt.iHfTlai8FYo41Y8HRUTYTK3HxO9.BOVMEUy.Ea0cVZtMEcgQWY9vSRC8Vav8lak4Fc9LSN13hUMczXWEjKt3hYt3hKt.kKt3hKt3BS5gEcyQjKtPjKiYTR5AkaA4hKtfjYikWTGIlKL4hK5EjKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKt3hKtX2bUMTRSgzUB4hKtXWdOMCLFElYXcUV30zUZUGMV8DZDk1R1gjPHsFMwfUcQYkVzMlUOgFUEUkQvHjSncSZOYlcCE1YMczXlQ0UZc0ZFkkdmY0SnY1PLYGRBgDLqYjTqsVLY4VTW8DZTMDS1gjPHY2cVgEM2YkV4EkLSQGLogzcHIDR3UkQhsVQFMFNHIDSn4BZiU2cVM1bUY0SnQTZKYGRBgjcEY0X4UkQYgCRRwDZtfmXzPSLXgCRBwDZyLzS1cmUXQycVoUdQIyR4XWdKIWQwHldzLjKt3hKt3hKt3hKtXlTU0DUQAURWoULEYzXqEEUXoWQF4RPDYFTzDzUXkWSG4RPDYmKtnWPt3hKt3hKt3hKJUELPUTPqI1aYcEV5UkQQcVTWgEOujzPu0Fbu4VYtQmO77hUSQ0LPwVcmklaSQWXzUlO..</STATE>
+    <LAYOUT>
+      <INPUTS>
+        <BUS index="0" layout="L R"/>
+      </INPUTS>
+      <OUTPUTS>
+        <BUS index="0" layout="L R"/>
+      </OUTPUTS>
+    </LAYOUT>
+  </FILTER>
+  <CONNECTION srcFilter="8" srcChannel="0" dstFilter="3" dstChannel="0"/>
+  <CONNECTION srcFilter="8" srcChannel="1" dstFilter="3" dstChannel="1"/>
+  <CONNECTION srcFilter="12" srcChannel="0" dstFilter="8" dstChannel="0"/>
+  <CONNECTION srcFilter="12" srcChannel="1" dstFilter="8" dstChannel="1"/>
+</FILTERGRAPH>
